@@ -1,0 +1,150 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Products Section Styles */
+
+.products {
+  padding: 50px;
+}
+
+.products h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  font-weight: bold;
+}
+
+/* Categories Section Styles */
+
+.categories {
+  padding: 50px;
+}
+
+.categories h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  margin-bottom: 10px;
+}
+
+.categories a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Contact Section Styles */
+
+.contact {
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.contact button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
